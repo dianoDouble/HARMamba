@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 <h1>HARMamba</h1>
 <h3>Efficient and Lightweight Wearable Sensor Human Activity Recognition Based on Bidirectional Mamba</h3>
 
@@ -9,9 +9,9 @@ Paper: [HARMamba: Efficient and Lightweight Wearable Sensor Human Activity Recog
 
 
 ## Abstract
-
+<div align="left">
 Wearable sensor-based human activity recognition (HAR) is a critical research domain in activity perception. However, achieving high efficiency and long sequence recognition remains a challenge. Despite the extensive investigation of temporal deep learning models, such as CNNs, RNNs, and transformers, their extensive parameters often pose significant computational and memory constraints, rendering them less suitable for resource-constrained mobile health applications. This study introduces HARMamba, an innovative light-weight and versatile HAR architecture that combines selective bidirectional State Spaces Model and hardware-aware design. To optimize real-time resource consumption in practical scenarios, HARMamba employs linear recursive mechanisms and parameter discretization, allowing it to selectively focus on relevant input sequences while efficiently fusing scan and recompute operations. The model employs independent channels to process sensor data streams, dividing each channel into patches and appending classification tokens to the end of the sequence. It utilizes position embedding to represent the sequence order. The patch sequence is subsequently processed by HARMamba Block, and the classification head finally outputs the activity category. The HARMamba Block serves as the fundamental component of the HARMamba architecture, enabling the effective capture of more discriminative activity sequence features. HARMamba outperforms contemporary state-of-the-art frameworks, delivering comparable or better accuracy with significantly reducing computational and memory demands. It's effectiveness has been extensively validated on 4 publically available datasets namely PAMAP2, WISDM, UNIMIB SHAR and UCI. The F1 scores of HARMamba on the four datasets are 99.74%, 99.20%,   88.23% and 97.01%, respectively.
-
+</div>
 
 ## Overview
 <div >
