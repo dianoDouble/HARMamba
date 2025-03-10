@@ -38,13 +38,12 @@ Wearable sensor-based human activity recognition (HAR) is a critical research do
 ## Acknowledgement :heart:
 <div align="left">
 
-This project is based on Mamba ([paper](https://arxiv.org/abs/2312.00752), [code](https://github.com/state-spaces/mamba)), Causal-Conv1d ([code](https://github.com/Dao-AILab/causal-conv1d)), DeiT ([paper](https://arxiv.org/abs/2012.12877), [code](https://github.com/facebookresearch/deit)). Thanks for their wonderful works.
+This project is based on Mamba ([paper](https://arxiv.org/abs/2312.00752), [code](https://github.com/state-spaces/mamba)), Causal-Conv1d ([code](https://github.com/Dao-AILab/causal-conv1d)). Thanks for their wonderful works.
 
 We appreciate the following GitHub repos a lot for their valuable code and efforts.
 
 - Mamba（https://github.com/state-spaces/mamba)）
 - Causal-Conv1d (https://github.com/Dao-AILab/causal-conv1d)](https://github.com/Dao-AILab/causal-conv1d)
-- DeiT (https://github.com/facebookresearch/deit)
 - PatchTST（https://github.com/yuqinie98/PatchTST）
 - Vision Mamba(https://github.com/hustvl/Vim)
 </div>
