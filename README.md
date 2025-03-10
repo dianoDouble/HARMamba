@@ -14,26 +14,30 @@ Wearable sensor-based human activity recognition (HAR) is a critical research do
 
 
 ## Overview
-<div align="center">
-<img src="assets/model.png"  alt="" />
+<div >
+<img src="assets/model.png"  />
 </div>
 
-
 ## Env Prepare
+<div align="left">
+
 
 - Python 3.9
-
   - `conda create -n your_env_name python=3.9`
 - Requirements: requirements.txt
   - `pip install -r requirements.txt`
 - Install ``causal_conv1d`` and ``mamba``
   - `pip install -e causal_conv1d>=1.1.0`
   - `pip install -e mamba-1p1p1`
+</div>
+
   
 
 
 
 ## Acknowledgement :heart:
+<div align="left">
+
 This project is based on Mamba ([paper](https://arxiv.org/abs/2312.00752), [code](https://github.com/state-spaces/mamba)), Causal-Conv1d ([code](https://github.com/Dao-AILab/causal-conv1d)), DeiT ([paper](https://arxiv.org/abs/2012.12877), [code](https://github.com/facebookresearch/deit)). Thanks for their wonderful works.
 
 We appreciate the following GitHub repos a lot for their valuable code and efforts.
@@ -43,8 +47,10 @@ We appreciate the following GitHub repos a lot for their valuable code and effor
 - DeiT (https://github.com/facebookresearch/deit)
 - PatchTST（https://github.com/yuqinie98/PatchTST）
 - Vision Mamba(https://github.com/hustvl/Vim)
+</div>
 
 ## Citation
+<div align="left">
 If you find this repo helpful, please cite our paper.
 
 ```bibtex
@@ -56,3 +62,4 @@ If you find this repo helpful, please cite our paper.
   publisher={IEEE}
 }
 ```
+</div>
